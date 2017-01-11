@@ -1,0 +1,330 @@
+/* line 1, C:/bs4f/sass/style.scss */
+$headerAcolor: #9f9fa0;
+$headerAcolorHref: #1b1c1e;
+$headerButtonBlue: #267df4;
+body{
+font-family: 'Lato', sans-serif;
+}
+#header{
+    height: 100%;
+    background-image: url(img/headerB.jpg);
+    background-size: cover; 
+    width:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.logo{
+  
+    width:100%;
+    padding: 20px;
+    background-image: url(img/logo.png);
+    background-position:center center;
+    background-repeat: no-repeat;
+}
+.header-nav{      
+        a{  text-decoration: none;
+            color:$headerAcolorHref;
+            font-size: 16px;
+            margin-right: 10px;
+        }
+    
+        a:nth-child(3)
+        {
+            margin-right: 0;
+        }
+    
+        a:hover{
+        color:$headerAcolor;
+        }
+    
+        .btn-image{
+        padding: 10px 10px 10px 30px;
+        background-image: url(img/AppleIcon.png);
+        background-position: 7px center;
+        background-repeat: no-repeat;
+        color:white;
+        }
+    
+}
+ .btn-white{
+        color:$headerAcolorHref;
+        border:1px solid #d2d2d3;
+        border-radius: 25px;
+        margin-top:5%;
+        text-decoration: none;
+}
+.btn-blue{
+        border-radius: 25px;
+        color:white;
+        background-color: $headerButtonBlue;
+        text-decoration: none;
+}
+
+.header-text{
+    padding-top:5%;
+    padding-bottom: 5%;
+    text-align: center;
+    
+    h1{    
+        width:100%;
+        font-size:-3vw;
+    }
+    p{
+        margin-bottom: 5%;
+        color:#9f9fa0;
+    }
+    .btn-image
+    {       padding: 9px 20px 10px 39px;
+            background-image: url(img/PlayIcon.png);
+            background-position: 17px center;
+            background-repeat: no-repeat;
+            height: 10px;
+            width: 10px;
+       
+    }
+   
+}
+
+.row-fl-jc-c{
+justify-content: center;
+}
+.row-fl-ac-e{
+    align-content: flex-end;
+}
+.row-fl-jc-sb{
+    justify-content: space-between;
+}
+.row-fl-jc-sr{
+    justify-content: space-around;
+}
+.row-fl-fd-rr{
+    flex-direction: row-reverse;
+}
+
+.h-img-wrap{
+    max-width: 400px;
+    height:auto;
+    padding: 20px;
+    padding-bottom: 0px;   
+}
+
+.border-row-b{
+    width:100%;
+    max-width:1140px;
+    align-items: flex-end;
+    border-bottom: 1px solid rgba(230, 230, 230, 0.79);
+    margin-top: 5%;
+}
+.box{
+      
+    min-width: 300px;
+    h1{   
+        font-size:-3vw;
+        color:#26272d;
+        padding:3% 0 0 0;    
+    }
+    p{
+        color:#8c8f94;
+        font-size:18px;
+        padding:3% 0 0 0;  
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+     .title{
+        
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+  
+   
+    a{
+        color:#8c8f94;
+        text-decoration: none;
+    }
+}
+ .shadow{
+        box-shadow: 0 0 10px rgba(0,0,0,0.2)
+    }
+/*# sourceMappingURL=style.css.map */
+#iPhoneFeature {
+    
+  width:100%;
+  height: auto;
+    .btn-image{
+        padding: 3px 45px 5px 10px;
+        background-image: url(img/ArrowIcon.png);
+        background-position: 125px center;
+        background-repeat: no-repeat;
+        }
+    
+    .btn-padding{
+        padding: 3px 10px 5px 10px;
+        margin-left:10px;
+    }
+    a{
+    text-decoration: none;
+    }
+}
+#MapFeature{  
+        a{
+            margin-right: 3%
+        }
+    
+}
+#iPhoneScreens{
+    background-color: #f5f5f8;
+  
+    img{
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+      
+    }
+    hr{
+        margin: 3% auto 0 auto;
+        width:100px;
+        height: 1px;
+        background-color: #267df4;
+    }
+    p{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+    .img{
+        background-image: url(img/IphoneSlide.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width:100%;
+        height: 650px;
+
+    }
+    h2{
+        text-align: center;
+    }
+    .form-control{
+        padding-left:20px;
+    }
+    .btn-image{
+        padding-right: 40px;
+        background-image: url(img/ArrowIcon.png);
+        background-position: 100px center;
+        background-repeat: no-repeat;
+    }
+    
+}
+#Customers{
+   
+    
+    .img-size-center{
+     width:150px;
+       height: 150px;
+    
+       
+    }
+    .arrow{
+        width:25px;
+        height:25px;
+    }
+    .img-size{
+        width:100px;
+        height: 100px;
+        opacity: 0.4;
+    }
+    .slider-wrap{
+        height: 100px; 
+    }
+    
+    
+}
+#Plan{
+    background-color: #f5f5f8;
+   
+    .btn-white{
+        background-color: rgba(191, 191, 191, 0.53);
+       
+    }
+    .rounded{
+        border-radius: 25px;
+    }
+    .btn-white.active{
+        background-color:white;
+    }
+    .tt{
+        transform: rotate(270deg); 
+        color:green;
+    }
+      span{
+        border:1px solid grey;
+    }
+    
+}
+.container-fluid{
+    max-width: 1440px;
+}
+
+#Free{
+    z-index: 2;
+    min-width: 250px;
+    max-width:300px;
+    height:450px;
+    background-color: #fff;
+    img{
+    width:10px;
+    height: 10px;
+    margin-top:-3px;
+        margin-right: 5px;}
+   
+}
+.bg_color{
+    background-color: white;
+}
+#Pro{
+  z-index: 1;
+  min-width: 250px;
+  max-width: 300px;
+  height:400px;
+      background-color: rgba(229, 229, 229, 1);
+    a{
+        color:#267df4;
+        border:1px solid #267df4;
+    }img{
+    width:10px;
+    height: 10px;
+    margin-top:-3px;
+        margin-right: 5px;}
+}
+#Footer{
+    .logo{
+        background-position: left;
+    }
+    ul{ 
+        list-style: none;
+    
+    li.social {
+            margin-right: 1.5em;
+        }
+        li{
+            margin-top: 1em;
+        }
+    }
+    a {
+        
+        img{
+            opacity: 0.5;
+        }
+        img:hover{
+            opacity: 1;
+        }
+    }
+    .tittle{
+        font-size: 16px;
+    }
+    
+}

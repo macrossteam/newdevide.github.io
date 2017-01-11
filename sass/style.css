@@ -1,0 +1,319 @@
+/* line 1, C:/bs4f/sass/style.scss */
+/* line 5, C:/bs4f/sass/style.scss */
+body {
+  font-family: 'Lato', sans-serif; }
+
+/* line 8, C:/bs4f/sass/style.scss */
+#header {
+  height: 100%;
+  background-image: url(img/headerB.jpg);
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+/* line 17, C:/bs4f/sass/style.scss */
+.logo {
+  width: 100%;
+  padding: 20px;
+  background-image: url(img/logo.png);
+  background-position: center center;
+  background-repeat: no-repeat; }
+
+/* line 26, C:/bs4f/sass/style.scss */
+.header-nav a {
+  text-decoration: none;
+  color: #1b1c1e;
+  font-size: 16px;
+  margin-right: 10px; }
+
+/* line 32, C:/bs4f/sass/style.scss */
+.header-nav a:nth-child(3) {
+  margin-right: 0; }
+
+/* line 37, C:/bs4f/sass/style.scss */
+.header-nav a:hover {
+  color: #9f9fa0; }
+
+/* line 41, C:/bs4f/sass/style.scss */
+.header-nav .btn-image {
+  padding: 10px 10px 10px 30px;
+  background-image: url(img/AppleIcon.png);
+  background-position: 7px center;
+  background-repeat: no-repeat;
+  color: white; }
+
+/* line 50, C:/bs4f/sass/style.scss */
+.btn-white {
+  color: #1b1c1e;
+  border: 1px solid #d2d2d3;
+  border-radius: 25px;
+  margin-top: 5%;
+  text-decoration: none; }
+
+/* line 57, C:/bs4f/sass/style.scss */
+.btn-blue {
+  border-radius: 25px;
+  color: white;
+  background-color: #267df4;
+  text-decoration: none; }
+
+/* line 64, C:/bs4f/sass/style.scss */
+.header-text {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center; }
+  /* line 69, C:/bs4f/sass/style.scss */
+  .header-text h1 {
+    width: 100%;
+    font-size: -3vw; }
+  /* line 73, C:/bs4f/sass/style.scss */
+  .header-text p {
+    margin-bottom: 5%;
+    color: #9f9fa0; }
+  /* line 77, C:/bs4f/sass/style.scss */
+  .header-text .btn-image {
+    padding: 9px 20px 10px 39px;
+    background-image: url(img/PlayIcon.png);
+    background-position: 17px center;
+    background-repeat: no-repeat;
+    height: 10px;
+    width: 10px; }
+
+/* line 89, C:/bs4f/sass/style.scss */
+.row-fl-jc-c {
+  justify-content: center; }
+
+/* line 92, C:/bs4f/sass/style.scss */
+.row-fl-ac-e {
+  align-content: flex-end; }
+
+/* line 95, C:/bs4f/sass/style.scss */
+.row-fl-jc-sb {
+  justify-content: space-between; }
+
+/* line 98, C:/bs4f/sass/style.scss */
+.row-fl-jc-sr {
+  justify-content: space-around; }
+
+/* line 101, C:/bs4f/sass/style.scss */
+.row-fl-fd-rr {
+  flex-direction: row-reverse; }
+
+/* line 105, C:/bs4f/sass/style.scss */
+.h-img-wrap {
+  max-width: 400px;
+  height: auto;
+  padding: 20px;
+  padding-bottom: 0px; }
+
+/* line 112, C:/bs4f/sass/style.scss */
+.border-row-b {
+  width: 100%;
+  max-width: 1140px;
+  align-items: flex-end;
+  border-bottom: 1px solid rgba(230, 230, 230, 0.79);
+  margin-top: 5%; }
+
+/* line 119, C:/bs4f/sass/style.scss */
+.box {
+  min-width: 300px; }
+  /* line 122, C:/bs4f/sass/style.scss */
+  .box h1 {
+    font-size: -3vw;
+    color: #26272d;
+    padding: 3% 0 0 0; }
+  /* line 127, C:/bs4f/sass/style.scss */
+  .box p {
+    color: #8c8f94;
+    font-size: 18px;
+    padding: 3% 0 0 0; }
+  /* line 132, C:/bs4f/sass/style.scss */
+  .box img {
+    max-width: 100%;
+    height: auto; }
+  /* line 136, C:/bs4f/sass/style.scss */
+  .box .title {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold; }
+  /* line 144, C:/bs4f/sass/style.scss */
+  .box a {
+    color: #8c8f94;
+    text-decoration: none; }
+
+/* line 149, C:/bs4f/sass/style.scss */
+.shadow {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
+
+/*# sourceMappingURL=style.css.map */
+/* line 153, C:/bs4f/sass/style.scss */
+#iPhoneFeature {
+  width: 100%;
+  height: auto; }
+  /* line 157, C:/bs4f/sass/style.scss */
+  #iPhoneFeature .btn-image {
+    padding: 3px 45px 5px 10px;
+    background-image: url(img/ArrowIcon.png);
+    background-position: 125px center;
+    background-repeat: no-repeat; }
+  /* line 164, C:/bs4f/sass/style.scss */
+  #iPhoneFeature .btn-padding {
+    padding: 3px 10px 5px 10px;
+    margin-left: 10px; }
+  /* line 168, C:/bs4f/sass/style.scss */
+  #iPhoneFeature a {
+    text-decoration: none; }
+
+/* line 173, C:/bs4f/sass/style.scss */
+#MapFeature a {
+  margin-right: 3%; }
+
+/* line 178, C:/bs4f/sass/style.scss */
+#iPhoneScreens {
+  background-color: #f5f5f8; }
+  /* line 181, C:/bs4f/sass/style.scss */
+  #iPhoneScreens img {
+    text-align: center; }
+  /* line 184, C:/bs4f/sass/style.scss */
+  #iPhoneScreens h1 {
+    text-align: center; }
+  /* line 188, C:/bs4f/sass/style.scss */
+  #iPhoneScreens hr {
+    margin: 3% auto 0 auto;
+    width: 100px;
+    height: 1px;
+    background-color: #267df4; }
+  /* line 194, C:/bs4f/sass/style.scss */
+  #iPhoneScreens p {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px; }
+  /* line 199, C:/bs4f/sass/style.scss */
+  #iPhoneScreens .img {
+    background-image: url(img/IphoneSlide.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 650px; }
+  /* line 208, C:/bs4f/sass/style.scss */
+  #iPhoneScreens h2 {
+    text-align: center; }
+  /* line 211, C:/bs4f/sass/style.scss */
+  #iPhoneScreens .form-control {
+    padding-left: 20px; }
+  /* line 214, C:/bs4f/sass/style.scss */
+  #iPhoneScreens .btn-image {
+    padding-right: 40px;
+    background-image: url(img/ArrowIcon.png);
+    background-position: 100px center;
+    background-repeat: no-repeat; }
+
+/* line 225, C:/bs4f/sass/style.scss */
+#Customers .img-size-center {
+  width: 150px;
+  height: 150px; }
+
+/* line 231, C:/bs4f/sass/style.scss */
+#Customers .arrow {
+  width: 25px;
+  height: 25px; }
+
+/* line 235, C:/bs4f/sass/style.scss */
+#Customers .img-size {
+  width: 100px;
+  height: 100px;
+  opacity: 0.4; }
+
+/* line 240, C:/bs4f/sass/style.scss */
+#Customers .slider-wrap {
+  height: 100px; }
+
+/* line 246, C:/bs4f/sass/style.scss */
+#Plan {
+  background-color: #f5f5f8; }
+  /* line 249, C:/bs4f/sass/style.scss */
+  #Plan .btn-white {
+    background-color: rgba(191, 191, 191, 0.53); }
+  /* line 253, C:/bs4f/sass/style.scss */
+  #Plan .rounded {
+    border-radius: 25px; }
+  /* line 256, C:/bs4f/sass/style.scss */
+  #Plan .btn-white.active {
+    background-color: white; }
+  /* line 259, C:/bs4f/sass/style.scss */
+  #Plan .tt {
+    transform: rotate(270deg);
+    color: green; }
+  /* line 263, C:/bs4f/sass/style.scss */
+  #Plan span {
+    border: 1px solid grey; }
+
+/* line 268, C:/bs4f/sass/style.scss */
+.container-fluid {
+  max-width: 1440px; }
+
+/* line 272, C:/bs4f/sass/style.scss */
+#Free {
+  z-index: 2;
+  min-width: 250px;
+  max-width: 300px;
+  height: 450px;
+  background-color: #fff; }
+  /* line 278, C:/bs4f/sass/style.scss */
+  #Free img {
+    width: 10px;
+    height: 10px;
+    margin-top: -3px;
+    margin-right: 5px; }
+
+/* line 285, C:/bs4f/sass/style.scss */
+.bg_color {
+  background-color: white; }
+
+/* line 288, C:/bs4f/sass/style.scss */
+#Pro {
+  z-index: 1;
+  min-width: 250px;
+  max-width: 300px;
+  height: 400px;
+  background-color: #e5e5e5; }
+  /* line 294, C:/bs4f/sass/style.scss */
+  #Pro a {
+    color: #267df4;
+    border: 1px solid #267df4; }
+  /* line 297, C:/bs4f/sass/style.scss */
+  #Pro img {
+    width: 10px;
+    height: 10px;
+    margin-top: -3px;
+    margin-right: 5px; }
+
+/* line 304, C:/bs4f/sass/style.scss */
+#Footer .logo {
+  background-position: left; }
+
+/* line 307, C:/bs4f/sass/style.scss */
+#Footer ul {
+  list-style: none; }
+  /* line 310, C:/bs4f/sass/style.scss */
+  #Footer ul li.social {
+    margin-right: 1.5em; }
+  /* line 313, C:/bs4f/sass/style.scss */
+  #Footer ul li {
+    margin-top: 1em; }
+
+/* line 319, C:/bs4f/sass/style.scss */
+#Footer a img {
+  opacity: 0.5; }
+
+/* line 322, C:/bs4f/sass/style.scss */
+#Footer a img:hover {
+  opacity: 1; }
+
+/* line 326, C:/bs4f/sass/style.scss */
+#Footer .tittle {
+  font-size: 16px; }
+
+/*# sourceMappingURL=style.css.map */
